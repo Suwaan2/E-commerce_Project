@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASUS Laptops | Official Store</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+   
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">ASUS</a>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+        </nav>
+        <div class="cart-icon" id="cart-icon">
+            <span style="font-size: 24px;">🛒</span>
+            <div class="cart-count" id="cart-count">0</div>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <h1>UNLEASH YOUR POTENTIAL</h1>
+        <p>Discover the latest ASUS laptops engineered for exceptional performance, stunning visuals, and unmatched innovation.</p>
+        <a href="#products" class="btn">EXPLORE NOW</a>
+        <div class="scroll-down" id="scroll-down">⬇</div>
+    </section>
+
+    <section id="products" class="section">
+        <div class="container">
+            <h2 class="section-title">Our Premium Laptops</h2>
+            <div class="products">
+                <div class="product-card">
+                    <img src="./img/rog.png" alt="ASUS ROG Zephyrus G14" class="product-img">
+                    <div class="product-info">
+                        <h3 class="product-title">ASUS ROG Zephyrus G14</h3>
+                        <p class="product-price">$1,499.99</p>
+                        <p class="product-description">14" QHD Display, AMD Ryzen 9, RTX 4070, 16GB RAM, 1TB SSD, Windows 11</p>
+                        <div class="product-buttons">
+                            <button class="btn add-to-cart" data-id="1" data-name="ASUS ROG Zephyrus G14" data-price="1499.99" data-img="/api/placeholder/300/200">Add to Cart</button>
+                            <button class="btn btn-red buy-now" data-id="1" data-name="ASUS ROG Zephyrus G14" data-price="1499.99">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="./img/zenbook.png" alt="ASUS ZenBook Pro Duo" class="product-img">
+                    <div class="product-info">
+                        <h3 class="product-title">ASUS ZenBook Pro Duo</h3>
+                        <p class="product-price">$2,299.99</p>
+                        <p class="product-description">15.6" OLED 4K, Intel Core i9, RTX 4080, 32GB RAM, 2TB SSD, Dual Screen</p>
+                        <div class="product-buttons">
+                            <button class="btn add-to-cart" data-id="2" data-name="ASUS ZenBook Pro Duo" data-price="2299.99" data-img="/api/placeholder/300/200">Add to Cart</button>
+                            <button class="btn btn-red buy-now" data-id="2" data-name="ASUS ZenBook Pro Duo" data-price="2299.99">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="./img/tuf.png" alt="ASUS TUF Gaming A15" class="product-img">
+                    <div class="product-info">
+                        <h3 class="product-title">ASUS TUF Gaming A15</h3>
+                        <p class="product-price">$999.99</p>
+                        <p class="product-description">15.6" FHD 144Hz, AMD Ryzen 7, RTX 3060, 16GB RAM, 512GB SSD, Military-grade durability</p>
+                        <div class="product-buttons">
+                            <button class="btn add-to-cart" data-id="3" data-name="ASUS TUF Gaming A15" data-price="999.99" data-img="/api/placeholder/300/200">Add to Cart</button>
+                            <button class="btn btn-red buy-now" data-id="3" data-name="ASUS TUF Gaming A15" data-price="999.99">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="./img/studio.png" alt="ASUS ProArt StudioBook 16" class="product-img">
+                    <div class="product-info">
+                        <h3 class="product-title">ASUS ProArt StudioBook 16</h3>
+                        <p class="product-price">$1,999.99</p>
+                        <p class="product-description">16" 4k OLED, Intel Xeon, RTX A3000, 32GB RAM, 1TB SSD, ASUS Dial for creators</p>
+                        <div class="product-buttons">
+                            <button class="btn add-to-cart" data-id="4" data-name="ASUS ProArt StudioBook 16" data-price="1999.99" data-img="/api/placeholder/300/200">Add to Cart</button>
+                            <button class="btn btn-red buy-now" data-id="4" data-name="ASUS ProArt StudioBook 16" data-price="1999.99">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="./img/vivobookd.png" alt="ASUS VivoBook S 14" class="product-img">
+                    <div class="product-info">
+                        <h3 class="product-title">ASUS VivoBook S 14</h3>
+                        <p class="product-price">$799.99</p>
+                        <p class="product-description">14" FHD OLED, Intel Core i7, Iris Xe Graphics, 16GB RAM, 512GB SSD, Lightweight design</p>
+                        <div class="product-buttons">
+                            <button class="btn add-to-cart" data-id="5" data-name="ASUS VivoBook S 14" data-price="799.99" data-img="/api/placeholder/300/200">Add to Cart</button>
+                            <button class="btn btn-red buy-now" data-id="5" data-name="ASUS VivoBook S 14" data-price="799.99">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="./img/chromebook.png" alt="ASUS Chromebook Flip CX5" class="product-img">
+                    <div class="product-info">
+                        <h3 class="product-title">ASUS Chromebook Flip CX5</h3>
+                        <p class="product-price">$699.99</p>
+                        <p class="product-description">14" FHD Touch, Intel Core i5, 8GB RAM, 256GB SSD, 2-in-1 Convertible, Chrome OS</p>
+                        <div class="product-buttons">
+                            <button class="btn add-to-cart" data-id="6" data-name="ASUS Chromebook Flip CX5" data-price="699.99" data-img="/api/placeholder/300/200">Add to Cart</button>
+                            <button class="btn btn-red buy-now" data-id="6" data-name="ASUS Chromebook Flip CX5" data-price="699.99">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="features" class="section features">
+        <div class="container">
+            <h2 class="section-title">Why Choose ASUS?</h2>
+            <div class="feature-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">🚀</div>
+                    <h3 class="feature-title">Unmatched Performance</h3>
+                    <p class="feature-description">Experience lightning-fast processing speeds and smooth multitasking with the latest Intel and AMD processors.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🎮</div>
+                    <h3 class="feature-title">Gaming Excellence</h3>
+                    <p class="feature-description">Dominate your games with powerful NVIDIA RTX graphics, high refresh rate displays, and advanced cooling systems.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🔋</div>
+                    <h3 class="feature-title">All-Day Battery</h3>
+                    <p class="feature-description">Stay productive on the go with laptops designed for exceptional battery life and fast charging capabilities.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🛡️</div>
+                    <h3 class="feature-title">Military-Grade Durability</h3>
+                    <p class="feature-description">Our laptops undergo rigorous testing to ensure they can withstand the demands of everyday use.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🖥️</div>
+                    <h3 class="feature-title">Stunning Displays</h3>
+                    <p class="feature-description">Immerse yourself in vibrant colors and sharp details with our OLED and high-resolution display options.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🔄</div>
+                    <h3 class="feature-title">Innovation First</h3>
+                    <p class="feature-description">From dual screens to the ASUS Dial, we're constantly pushing the boundaries of laptop design and functionality.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="section about">
+        <div class="container">
+            <h2 class="section-title">About ASUS</h2>
+            <div class="about-content">
+                <div class="about-img">
+                    <img src="./img/ASUS logo grey.png" alt="ASUS Company" style="width:80%; border-radius:10px;">
+                </div>
+                <div class="about-text">
+                    <p>ASUS is a multinational computer and phone hardware and electronics company headquartered in Taiwan. Since its founding in 1989, ASUS has been at the forefront of technological innovation.</p>
+                    <p>Our mission is to deliver incredible experiences that enhance the lives of people everywhere. We're passionate about technology and driven by innovation.</p>
+                    <p>With a global workforce of more than 17,000 and a world-class R&D team, we're dedicated to creating products that provide incredible experiences that enhance the lives of people everywhere.</p>
+                    <a href="https://asus.com" class="btn">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-links">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+                <a href="#">Support</a>
+                <a href="#">Contact Us</a>
+                <a href="#">Careers</a>
+            </div>
+            <p class="footer-text">© 2025 ASUS. All rights reserved. ASUS is a registered trademark of ASUSTeK Computer Inc. All specifications and terms are subject to change without notice. Please check with your supplier for exact offers.</p>
+        </div>
+    </footer>
+
+    <div class="cart-overlay" id="cart-overlay">
+        <div class="cart-header">
+            <h2>Shopping Cart</h2>
+            <button class="close-cart" id="close-cart">✕</button>
+        </div>
+        <div class="cart-items" id="cart-items">
+            <!-- Cart items will be added here dynamically -->
+        </div>
+        <div class="cart-total" id="cart-total">
+            Total: $0.00
+        </div>
+        <button class="checkout-btn">Proceed to Checkout</button>
+    </div>
+
+    <div class="overlay" id="overlay"></div>
+
+   <script src="script.js"></script>
+</body>
+</html>
